@@ -16,7 +16,7 @@ Used to fetch your API Profile Information
     client.myInfo()
 ```
 ### Response
-```json
+```
 { user, pro, ratelimits, banned, requests, tokenCreatedTimestamp, createdTimestamp }
 ```
 ---
@@ -25,12 +25,12 @@ Talk to a chatbot
 
 **name, gender and user params are optional**
 
-```python
+```
     message = input("Your message/question:")
     client.chatBot(message, "Chatty", "male", "You")
 ```
 ### Response
-```json
+```
 { message }
 ```
 ---
@@ -40,7 +40,7 @@ Generate a fake discord token
     client.fakeDiscordToken()
 ```
 ### Response
-```json
+```
 { token }
 ```    
 ---
@@ -55,7 +55,7 @@ Get a random meme, either from a specific subreddit or a random one
 ```
 
 ### Response
-```json
+```
 { isVideo, nsfw, createdAt, url, ratings: { upvote, downvote, comments }, subreddit, title, link }
 ```
 
@@ -65,7 +65,7 @@ Get a random roast!
     client.roast()
 ```
 ### Response
-```json
+```
     { roast }
 ```
 ---
@@ -77,7 +77,7 @@ Fetch information about a specific pokemon!
 ```
 
 ### Response
-```json
+```
     { name, id, baseExperience, height, weight, type, moves, stats, image }
 ```
 ---
@@ -92,7 +92,7 @@ client.morese("decode", ".... . .-.. .-.. ---")
 ```
 
 ### Response
-```json
+```
 { data }
 ```
 ---
@@ -111,7 +111,7 @@ client.registry("pypi", "snowflakeapi")
 ```
 
 ### Responses
-```json
+```
  // Deno
 { registry, icon, url, module: { name, url, description, version, stars, developer: { name, url }, github, createdAt } }
 
@@ -129,7 +129,7 @@ Get statisticle information about SnowflakeDev API
 ```
 
 ### Response
-```json
+```
 { total_requests, free_users, pro_users, total_users, banned_users, os, processor: { model, count }, memory: { heap_total, heap_used, rss, external, ab } }
 ```
 ---
@@ -139,7 +139,7 @@ Get information about a github profile.
     client.githubstats("DevSynth")
 ```
 ### Response
-```json
+```
 { name, avatar, followers, repos, pullRequests, issues, npmDownloads }
 ```
 ---
@@ -149,7 +149,7 @@ Reverse any text!
     client.reverse("Hello, how are you?")
 ```
 ### Response
-```json
+```
 { message }
 ```
 ---
@@ -159,7 +159,7 @@ Get information about a discord token (TOKENS ARE NOT SAVED)
     client.discordTokenInfo("TOKEN_HERE")
 ```
 ### Response
-```json
+```
 { type, token, id, username, discriminator, avatar, avatarURL, snowflakeInfo }
 ```
 ---
@@ -169,7 +169,7 @@ Get information about a youtube channel
     client.youtubeChannel("Channel Name")
 ```
 ### Response
-```json
+```
 { channel: { name, url }, videos: [ { id, title, author, url, publishedAt, thumbnail }, ... ] }
 ```
 ---
@@ -179,7 +179,7 @@ Get information about a youtube video
     client.ytSearch("Hello", 1, True, "video")
 ```
 ### Response
-```json
+```
 { data: [...] }
 ```
 ---
@@ -193,7 +193,7 @@ client.base64("encode", "Hello")
 client.base64("decode", "SGVsbG8K")
 ```
 ### Response
-```json
+```
 { data }
 ```
 ---
@@ -206,6 +206,6 @@ Get a random image of cats, dogs, ducks, or fox's.
     client.duck()
 ```
 ### Response
-```json
+```
 { IMAGE_BUFFER }
 ```
