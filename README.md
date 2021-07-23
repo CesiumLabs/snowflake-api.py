@@ -1,4 +1,4 @@
-# Snowflake API (python)
+# Snowflake API
 
 ### Example Usage
 ```python
