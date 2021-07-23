@@ -1,0 +1,6 @@
+main.py
+__pycache__/
+.pytest_cache/
+.vscode
+_build/
+.env
