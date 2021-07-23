@@ -25,7 +25,7 @@ Talk to a chatbot
 
 **name, gender and user params are optional**
 
-```
+```python
     message = input("Your message/question:")
     client.chatBot(message, "Chatty", "male", "You")
 ```
