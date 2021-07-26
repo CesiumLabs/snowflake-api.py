@@ -26,7 +26,7 @@ pip install snowflakeapi
 
 ## API Documentation
 
-[API Documentation](https://snowflakeapipy.readthedocs.io/en/latest/)
+[API Documentation](https://snowflakeapi.readthedocs.io/en/latest/)
 
 
 ## Want To Contribute?
