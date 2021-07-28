@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "snowflakeapi"
-version = "2.0"
+version = "2.2"
 description = "SnowFlake API Wrapper for Python"
 authors = ["DevSynth <synth@snowflakedev.org>"]
 license = "MIT"
+readme="README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
